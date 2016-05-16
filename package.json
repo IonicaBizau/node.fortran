@@ -1,6 +1,6 @@
 {
   "name": "node.fortran",
-  "description": "Execute Node.js stuff in your Fortran code.",
+  "description": "Execute Node.js from Fortran.",
   "keywords": [
     "node",
     "fortran",
