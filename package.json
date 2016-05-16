@@ -1,0 +1,21 @@
+{
+  "name": "node.fortran",
+  "description": "Execute Node.js stuff in your Fortran code.",
+  "keywords": [
+    "node",
+    "fortran",
+    "execute",
+    "js",
+    "stuff",
+    "in",
+    "your",
+    "code"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău"
+}
