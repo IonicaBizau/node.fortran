@@ -1,4 +1,4 @@
-      program module_example
+      program nodejs_module_example
       use nodejs
 
       implicit none
@@ -16,4 +16,4 @@
             & from Fortran!')&
             &}).listen(9000);", .true.);
 
-      end program module_example
+      end program nodejs_module_example
