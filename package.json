@@ -21,6 +21,7 @@
   "blah": {
     "examplePath": "index.f90",
     "exampleLang": "fortran",
+    "ex_img": "http://i.imgur.com/OszvGVi.png",
     "installation": [
       [
         "You have to install [Node.js](https://nodejs.org/en/) on",

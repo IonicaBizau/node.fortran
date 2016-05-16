@@ -5,6 +5,8 @@
 
 > Execute Node.js from Fortran.
 
+[![node.fortran](http://i.imgur.com/OszvGVi.png)](#)
+
 You have to install [Node.js](https://nodejs.org/en/) on
 your machine. In case you do not have a Fortran compiler,
 you can install it by running:
@@ -22,7 +24,7 @@ brew install gcc
 
 
 ```fortran
-      program module_example
+      program nodejs_module_example
       use nodejs
 
       implicit none
@@ -40,7 +42,7 @@ brew install gcc
             & from Fortran!')&
             &}).listen(9000);", .true.);
 
-      end program module_example
+      end program nodejs_module_example
 ```
 
 To compile the program, use:
