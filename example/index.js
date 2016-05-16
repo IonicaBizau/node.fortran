@@ -1,5 +1,1 @@
-"use strict";
-
-const nodeFortran = require("../lib");
-
-console.log(nodeFortran());
+console.log("Hello from a Node.js file.");
