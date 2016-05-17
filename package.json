@@ -12,7 +12,7 @@
     "code"
   ],
   "license": "MIT",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -52,23 +52,31 @@
       }
     ],
     "documentation": [
-        "The `nodejs.f90` module exports the following subroutines:",
-        { "h3": "`runNodejs(code, waitForProcess)`" },
-        {
-            "ul": [
-                "`code` (CHARACTER(len=100000)): The Node.js snippet to execute.",
-                "`waitForProcess` (logical): If `false`, the Node.js code will be executed in the background."
-            ]
-        },
-        { "h3": "`runNodejsFile(file, waitForProcess)`" },
-        {
-            "ul": [
-                "`file` (CHARACTER(len=10000)): The Node.js file path.",
-                "`waitForProcess` (logical): If `false`, the Node.js code will be executed in the background."
-            ]
-        }
+      "The `nodejs.f90` module exports the following subroutines:",
+      {
+        "h3": "`runNodejs(code, waitForProcess)`"
+      },
+      {
+        "ul": [
+          "`code` (CHARACTER(len=100000)): The Node.js snippet to execute.",
+          "`waitForProcess` (logical): If `false`, the Node.js code will be executed in the background."
+        ]
+      },
+      {
+        "h3": "`runNodejsFile(file, waitForProcess)`"
+      },
+      {
+        "ul": [
+          "`file` (CHARACTER(len=10000)): The Node.js file path.",
+          "`waitForProcess` (logical): If `false`, the Node.js code will be executed in the background."
+        ]
+      }
     ],
-    "related": ["fortran", "cobol", "node.cobol"]
+    "related": [
+      "fortran",
+      "cobol",
+      "node.cobol"
+    ]
   },
   "files": [
     "bin/",
