@@ -68,7 +68,7 @@
             ]
         }
     ],
-    "related": ["fortran"]
+    "related": ["fortran", "cobol", "node.cobol"]
   },
   "files": [
     "bin/",
