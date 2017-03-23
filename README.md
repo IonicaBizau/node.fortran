@@ -45,6 +45,15 @@ brew install gcc
       end program nodejs_module_example
 ```
 
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 To compile the program, use:
 ```sh
 gfortran path/to/nodejs.f90 your-file.f90
@@ -57,10 +66,12 @@ The `nodejs.f90` module exports the following subroutines:
 
  - `code` (CHARACTER(len=100000)): The Node.js snippet to execute.
  - `waitForProcess` (logical): If `false`, the Node.js code will be executed in the background.
+
 ### `runNodejsFile(file, waitForProcess)`
 
  - `file` (CHARACTER(len=10000)): The Node.js file path.
  - `waitForProcess` (logical): If `false`, the Node.js code will be executed in the background.
+
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
@@ -89,6 +100,7 @@ Thanks! :heart:
  - [`fortran`](https://github.com/IonicaBizau/node-fortran)—Fortran bridge for Node.js which allows you to run Fortran code from Node.js.
  - [`cobol`](https://github.com/IonicaBizau/node-cobol)—COBOL bridge for NodeJS which allows you to run COBOL code from NodeJS.
  - [`node.cobol`](https://github.com/IonicaBizau/node.cobol#readme)—Node.js bridge for COBOL which allows you to run Node.js code from COBOL.
+
 
 
 ## :scroll: License
